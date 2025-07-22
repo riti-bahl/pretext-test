@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Cool examples</title>
+
+  <p> Text of section. </p>
+  <p>
+    Here are some examples. See <xref ref="example-example"/>
+  </p>
+
+  <example xml:id='example-example'>
+    <statement>
+      <p>
+        This is an example of an example.
+      </p>
+      <p>
+        This concludes the example.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        This doesn't really need a hint. But anyway here is some math. 
+        <m> \sin(x) = 4x^2 </m>
+      </p>
+    </hint>
+  </example>
+
+</section>
